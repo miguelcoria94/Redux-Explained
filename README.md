@@ -31,7 +31,16 @@ Dan envisioned dev tools that would allow him to undo or replay a series of acti
 
 Dans vision became the React DevTools.
 
+Redux updates state using pure functions called Reducers.
 
+One can simply replay a series of actions and be guaranteed to arrive at the same final state.
+
+Redux also becomes more convenient to use a single object to use a single object  to store the state,
+as opposed to traditional Flux which uses multiple store.
+
+Philosophy of Redux
+
+    *
 
 
 

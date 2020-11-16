@@ -78,6 +78,10 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **Actions** "The Redux store is updated by dispatching actions" - An action is a POJO with a type property. Actions contain info that can be used to update the store. They can be sent to the store, in response to user actions or AJAX requests. Typically Redux apps use functions called action creators that return actions. Action creators can take arguements which allow them to customize the data contained in the actions they generate.
 
+    * **Pure functions** "Redux reducers are pure functions" - A function is pure if its behavior depends only on its arguements and it has no side effects. A pure function cannot depend on the value of any variables that are not passed in as arguements. Pure functions can not alter the state of the program or any variable existing outside itself. A pure function simply takes in arguements and returns a value.
+
+    * **Reducer** "Redux handles actions using reducers."
+
 
 
 

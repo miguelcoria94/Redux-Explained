@@ -44,6 +44,31 @@ Philosophy of Redux
     * **State is Read Only** The state object cannot be directly modified. Instead it is modified by dispatching actions.
     * **Changes Are Made with Pure Functions** The reducers that receive the actions and return updated state are pure functions of the old state and the actions.
 
+<h1 align="center">
+When is it appropriate to use Redux?
+</h1>
+
+Redux has over 3mil downloads.
+
+The Redux repo has over 50,000 stars.
+
+Redux is used by big companies (Exana, Patreon, ClassPass)
+
+Context, like Redux gives you a way to store and manage global state in your React apps.
+
+Projects with simpler global state requirments favor Context over React.
+
+Context is built into React so there's no need for additional installs.
+
+Context is simpler and requires less work to get up and running.
+
+Redux is still better for more complex global state.
+
+Redux offers more flexibility with support for middlewares and better devtools.
+
+
+
+
 
 
 

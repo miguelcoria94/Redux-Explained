@@ -40,7 +40,9 @@ as opposed to traditional Flux which uses multiple store.
 
 Philosophy of Redux
 
-    *
+    * **A Single Source of Truth** The state for an entire Redux app is stored in a single plain JS object.
+    * **State is Read Only** The state object cannot be directly modified. Instead it is modified by dispatching actions.
+    * **Changes Are Made with Pure Functions** The reducers that receive the actions and return updated state are pure functions of the old state and the actions.
 
 
 

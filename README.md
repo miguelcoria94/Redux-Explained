@@ -15,3 +15,26 @@ Advantages of using Redux
     * Redux is very fast(the time to insert and retrieve data)
     * Redux is very predictable
 
+<h1 align="center">
+Where did Redux come from?
+</h1>
+
+Redux was created in 2015 by Dan Abramov.
+
+Redux was created to simplify Flux.
+
+Flux had a bunch of boilerplate code that was unnecessary. (things to create a flux app)
+
+Dan also wanted to elimanate some of the problems he was facing when it came to debugging.
+
+Dan envisioned dev tools that would allow him to undo or replay a series of actions at the click of a button.
+
+Dans vision became the React DevTools.
+
+
+
+
+
+
+
+

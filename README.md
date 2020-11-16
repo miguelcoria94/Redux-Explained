@@ -80,7 +80,7 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **Pure functions** "Redux reducers are pure functions" - A function is pure if its behavior depends only on its arguements and it has no side effects. A pure function cannot depend on the value of any variables that are not passed in as arguements. Pure functions can not alter the state of the program or any variable existing outside itself. A pure function simply takes in arguements and returns a value.
 
-    * **Reducer** "Redux handles actions using reducers."
+    * **Reducer** "Redux handles actions using reducers." - A reducer is a function that is called each time an action is dispatched. The reducer recieves an action and the current state as arguements and returns an updated state. Redux reducers are required to be pure functions of the dispatched action and the current state. This maked their behaviour very predictable and allows their effects to potentially be reversed.
 
 
 

@@ -76,8 +76,7 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **Store** "The Redux store is updated by dispatching actions" - The Redux store is a single JS object with a few methods, including (getState, dispatch(action), and subscribe(listener)). Any state you want Redux to handle is held in the store.
 
-    
-
+    * **Actions** "The Redux store is updated by dispatching actions" - An action is a POJO with a type property. Actions contain info that can be used to update the store. They can be sent to the store, in response to user actions or AJAX requests. Typically Redux apps use functions called action creators that return actions. Action creators can take arguements which allow them to customize the data contained in the actions they generate.
 
 
 

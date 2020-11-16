@@ -82,6 +82,8 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **Reducer** "Redux handles actions using reducers." - A reducer is a function that is called each time an action is dispatched. The reducer recieves an action and the current state as arguements and returns an updated state. Redux reducers are required to be pure functions of the dispatched action and the current state. This maked their behaviour very predictable and allows their effects to potentially be reversed.
 
+    * **Middleware** "You can customize your response to dispatched actions using middleware" - Middleware is an optional component of Redux that allows custom responses to dispatched actions. When an action is dispatched, it passes through each middleware that has been added to the state. The middleware can take some action in response and choose whether or not to pass the action on down the chain. Behind the scenes, the middleware actually replaces the dispatch method of the store with a customized version. There is a large ecosystem of existing middleware ready to be plugged into any Redux projects. Perhaps the most common use for middleware is to dispatch async requests to a server.
+
 
 
 

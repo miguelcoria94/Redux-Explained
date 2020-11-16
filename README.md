@@ -74,6 +74,8 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **State** "Redux is a state manager" - The state of a program means all the information stored by that program at a particular point in time. It's the data stored by a program at a particular instance in time, as opposed to the logic of the program, which doesnt change over time. The job of Redux is to store the state of your app and make it available to the entire app.
 
+    * **Store** "The Redux store is updated by dispatching actions" - The Redux store is a single JS object with a few methods, including (getState, dispatch(action), and subscribe(listener)). Any state you want Redux to handle is held in the store.
+
     
 
 

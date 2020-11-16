@@ -66,6 +66,17 @@ Redux is still better for more complex global state.
 
 Redux offers more flexibility with support for middlewares and better devtools.
 
+<h1 align="center">
+Vocabulary
+</h1>
+
+Learning how to use Redux requires you to understand a fair amount of terminology.
+
+    * **State** "Redux is a state manager" - The state of a program means all the information stored by that program at a particular point in time. It's the data stored by a program at a particular instance in time, as opposed to the logic of the program, which doesnt change over time. The job of Redux is to store the state of your app and make it available to the entire app.
+
+    
+
+
 
 
 

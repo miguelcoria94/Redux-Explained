@@ -86,6 +86,7 @@ Learning how to use Redux requires you to understand a fair amount of terminolog
 
     * **Time traveling dev tools** "Redux has time traveling dev tools." - Redux reducers are pure functions of the dispatched action and the current state. This means that if one were to store a list of the previous states over time and the action sthat had been dispatched, one could retroactively cancel an action and recalculate the state as if that action had never dispatched. This is precisely the functionality that the Redux DevTools provide. The dev tools can be added as middlewate to any Redux project. They allow you to look back through the history of the state and toggle past actions in and off to see a live recalculaton of the state. This ability to revert toa previous state us what is meant by time travel.
 
+    * **Thunks** "Thunks are a convienent format for taking async actions in Redux" - A thunk is a general concept in computer science referring to a function whose primary purpose is simply to call another function. In Redux a thunk action creator returns a function rather than an object. When they are dispatched thunks are intercepted by a piece of middleware that simply checks if each action is a function. If it is, that function is called with the state and dispatched as arguements, otherwise it is passed on down the chain. Thunks are most commonly used to make asynce API requests.
 
 
 
